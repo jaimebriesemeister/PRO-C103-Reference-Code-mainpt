@@ -71,7 +71,7 @@ observer.start()
 try:
     while True:
         time.sleep(2)
-        print("executnado...")
+        print("executando...")
 except KeyboardInterrupt:
     print("interrompido!")
     observer.stop()
